@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.myhome.franklin_planner",
+      "sha256_cert_fingerprints":
+        ["C7:D4:99:C9:B8:5F:7C:42:05:14:C4:17:E3:65:39:19:01:12:D1:7B:71:4F:56:99:A5:07:71:63:DE:02:E4:B6"]
+    }
+  }
+]
