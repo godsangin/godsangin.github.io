@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "55929WFWH6.com.example.franklinPlanner",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
