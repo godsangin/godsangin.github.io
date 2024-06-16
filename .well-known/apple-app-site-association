@@ -3,9 +3,21 @@
       "apps": [],
       "details": [
       {
-        "appID": "55929WFWH6.com.example.franklinPlanner",
-        "paths": ["*"]
+        "appID": [
+          "55929WFWH6.com.example.franklinPlanner", "55929WFWH6.com.myhome.franklinPlanner"
+        ],
+        "paths": ["*"],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "55929WFWH6.com.example.franklinPlanner", "55929WFWH6.com.myhome.franklinPlanner"
     ]
   }
 }
