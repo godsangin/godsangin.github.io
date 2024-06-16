@@ -245,7 +245,25 @@
     <script src="js/scripts.js"></script>
 </body>
 <script>
+    setTimeout(
+		var visitedAt = (new Date()).getTime(); // 방문 시간
 
+		function() {
+        if((new Date()).getTime() - visitedAt < 2000) { 
+            if(getUserAgent.indexOf("Android") >-1){
+                location.href = "https://play.google.com/store/apps/details?id=com.myhome.franklin_planner";
+            }
+            else{
+		    // if(getUserAgent.indexOf("iPhone") >-1){
+                location.href = "https://apps.apple.com/kr/app/%EB%82%B4%EC%93%B0%ED%94%8C/id6502704768";
+            }
+        }
+    }, 500);
+    var iframe = document.createElement('iframe');
+    iframe.style.visibility = 'hidden'; // 보이지 않는 iframe으로 스킴을 호출한다.
+    iframe.src = 'pfminvite://111';
+    document.body.appendChild(iframe);
+    document.body.removeChild(iframe); // back 호출시 캐싱될 수 있으므로 제거
     $(function(){
 
         $('#navbar').load("./navbar.html");
